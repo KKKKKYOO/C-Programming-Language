@@ -4,10 +4,7 @@
 #include <stdio.h>
 int main(){
     long nc = 0;
-    int hit;
-    int space;
-    int tab;
-    int newline;
+    int hit, space, tab, newline;
 
     do{
         hit = getchar();
