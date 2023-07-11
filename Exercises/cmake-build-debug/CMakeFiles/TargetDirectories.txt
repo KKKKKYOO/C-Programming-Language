@@ -1,3 +1,4 @@
-/Users/kanghaeyoo/Desktop/ProgrammingC_Notes/Exercises/cmake-build-debug/CMakeFiles/Exercises.dir
-/Users/kanghaeyoo/Desktop/ProgrammingC_Notes/Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kanghaeyoo/Desktop/ProgrammingC_Notes/Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kanghaeyoo/Desktop/C-Programming-Language/Exercises/cmake-build-debug/CMakeFiles/Exercises.dir
+/Users/kanghaeyoo/Desktop/C-Programming-Language/Exercises/cmake-build-debug/CMakeFiles/1-2.dir
+/Users/kanghaeyoo/Desktop/C-Programming-Language/Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kanghaeyoo/Desktop/C-Programming-Language/Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir

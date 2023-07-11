@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Exercises",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "1-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-2-Debug-5909e74d4c00f7e54422.json",
+					"name" : "1-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Exercises::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exercises-Debug-2b94e635bb091dd82d02.json",
+					"jsonFile" : "target-Exercises-Debug-f4f272bf98413a8a0fb6.json",
 					"name" : "Exercises",
 					"projectIndex" : 0
 				}
@@ -49,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/kanghaeyoo/Desktop/ProgrammingC_Notes/Exercises/cmake-build-debug",
-		"source" : "/Users/kanghaeyoo/Desktop/ProgrammingC_Notes/Exercises"
+		"build" : "/Users/kanghaeyoo/Desktop/C-Programming-Language/Exercises/cmake-build-debug",
+		"source" : "/Users/kanghaeyoo/Desktop/C-Programming-Language/Exercises"
 	},
 	"version" : 
 	{
