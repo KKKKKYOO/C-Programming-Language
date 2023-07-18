@@ -7,22 +7,20 @@
 #define MAXLINE 1000
 #define N 10
 
-
 int getline(char line[], int maxline);
-
 void fold(char line[], int col);
 
-int main(){
+int main() {
     int col = N;
     char line[MAXLINE];
     int len;
 
-    while(len = getline(line, MAXLINE)){
-        
+    while ((len = getline(line, MAXLINE)) > 0) {
+        fold(line, col);
     }
+
+    return 0;
 }
-
-
 
 int getline(char line[], int maxline) {
     int c, i;
@@ -41,29 +39,32 @@ int getline(char line[], int maxline) {
     return i;
 }
 
-void fold(char line[], int col){
+void fold(char line[], int col) {
     int pos = 0;
     int last_non_blank = -1;
-    
-    while(line[pos] != '\0'){
-        if(line[pos] != ' ' && line[pos] != '\t'){
+
+    while (line[pos] != '\0') {
+        if (line[pos] != ' ' && line[pos] != '\t') {
             last_non_blank = pos;
+        }
+
+        if (pos == col - 1) {
+            if (last_non_blank == -1) {
+                putchar(line[pos]);
+                putchar('\n');
+                pos++;
+            } else {
+                putchar('\n');
+                pos = last_non_blank + 1;
+                last_non_blank = -1;
+            }
+        } else {
+            putchar(line[pos]);
+            pos++;
         }
     }
 
-    if (pos == col -1){
-        if (last_non_blank == -1){
-            putchar(line[pos]);
-            putchar('\n');
-            pos++;
-        } else {
-            putchar('\n');
-            pos = last_non_blank + 1;
-             last_non_blank = -1;
-        }
-    } else {
-         putchar(line[pos]);
-         pos++;
+    if (last_non_blank != -1 && pos > last_non_blank + 1) {
+        putchar('\n');
     }
-    
 }
